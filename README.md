@@ -1,6 +1,6 @@
 ﻿# Chicago L Eats Cho
 
-Website Link: https://lotlouischoitslab.github.io/ChicagoLEatsCho/
+Website Link: https://lotlouischoitslab.github.io/ChicagoLEats/
 
 ## Contributors
 
