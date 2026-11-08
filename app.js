@@ -649,8 +649,6 @@ const GALLERY_SLIDES = [
 
   { src: './photos/taurex.jpg', name: 'Taurex Tavern', caption: 'Consultants! Make sure your clients do not miss out French food in the Loop!', neighborhood: 'Loop',  line: 'Blue, Orange, Purple, Pink, Brown',   cuisine: 'French' },
    { src: './photos/avli_park.jpg', name: 'Avli on the Park',     caption: 'Visiting Millenium Park? Enjoy some chicken!', neighborhood: 'Loop',  line: 'Red, Blue, Brown, Orange, Green, Purple, Pink',   cuisine: 'Greek' },
- 
-
 
    { src: './photos/phoenix.jpg', name: 'Phoenix Restaurant',     caption: 'Craving for Dim Sum? Go to Phoenix Restaurant!', neighborhood: 'Chinatown',  line: 'Red',   cuisine: 'Chinese' },
  
