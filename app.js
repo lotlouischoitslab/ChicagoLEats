@@ -641,9 +641,22 @@ function toggleLTrainPause() {
   // Only Display 5 Star Items otherwise it's going to be too much
 
 const GALLERY_SLIDES = [ 
-    { src: './photos/bavattes.jpg', name: 'Bavattes', caption: 'Finally tried Bavette’s Bar and Boeuf after everyone kept telling me to go and yeah, they were right. Amazing dinner, classic steakhouse energy, and one of those River North spots that absolutely lives up to the hype.', neighborhood: 'River North', line: 'Brown, Purple', cuisine: 'American' },
+  { src: './photos/chicagocut.jpg', name: 'Chicago Cut Steakhouse', caption: 'Amazing ribeye steak sandwich for lunch!', neighborhood: 'River North', line: 'Red', cuisine: 'American' },
+  { src: './photos/barsotto.jpg', name: 'Bar Sotto', caption: 'Mouth watering pasta you will never forget!', neighborhood: 'Loop', line: 'Red, Blue, Orange, Green, Purple, Pink, Brown', cuisine: 'Italian' },
+  { src: './photos/beatnikriver.jpg', name: 'Beatnik on River', caption: 'Crispy Steak Kebabs with rice!', neighborhood: 'Loop', line: 'Orange, Purple, Pink, Brown', cuisine: 'Mediterranean' },
+  { src: './photos/bouchon.jpg', name: 'Le Bouchon', caption: 'Authentic Steak Frites in West Town Bucktown!', neighborhood: 'West Town',  line: 'Blue',   cuisine: 'French' },
+ 
 
-    { src: './photos/tre_dita.jpg', name: 'Tre Dita', caption: 'Elegant pastas, beautiful downtown views, and a polished Lakeshore East atmosphere that makes the whole night feel special. A perfect spot for a refined Italian dinner in Chicago.', neighborhood: 'Loop', line: 'Red, Blue, Orange, Green, Purple, Pink, Brown', cuisine: 'Italian' },
+  { src: './photos/taurex.jpg', name: 'Taurex Tavern', caption: 'Consultants! Make sure your clients do not miss out French food in the Loop!', neighborhood: 'Loop',  line: 'Blue, Orange, Purple, Pink, Brown',   cuisine: 'French' },
+   { src: './photos/avli_park.jpg', name: 'Avli on the Park',     caption: 'Visiting Millenium Park? Enjoy some chicken!', neighborhood: 'Loop',  line: 'Red, Blue, Brown, Orange, Green, Purple, Pink',   cuisine: 'Greek' },
+ 
+
+
+   { src: './photos/phoenix.jpg', name: 'Phoenix Restaurant',     caption: 'Craving for Dim Sum? Go to Phoenix Restaurant!', neighborhood: 'Chinatown',  line: 'Red',   cuisine: 'Chinese' },
+ 
+   { src: './photos/bavattes.jpg', name: 'Bavattes', caption: 'Finally tried Bavette’s Bar and Boeuf after everyone kept telling me to go and yeah, they were right. Amazing dinner, classic steakhouse energy, and one of those River North spots that absolutely lives up to the hype.', neighborhood: 'River North', line: 'Brown, Purple', cuisine: 'American' },
+
+   { src: './photos/tre_dita.jpg', name: 'Tre Dita', caption: 'Elegant pastas, beautiful downtown views, and a polished Lakeshore East atmosphere that makes the whole night feel special. A perfect spot for a refined Italian dinner in Chicago.', neighborhood: 'Loop', line: 'Red, Blue, Orange, Green, Purple, Pink, Brown', cuisine: 'Italian' },
 
 
 
@@ -656,18 +669,12 @@ const GALLERY_SLIDES = [
 
  { src: './photos/river_north_bistro.jpg', name: 'River North Bistro', caption: 'Great place for a Sunday brunch at River North!', neighborhood: 'River North', line: 'Red', cuisine: 'American' },
 
-  { src: './photos/lou.jpg', name: 'Lou Malnati\'s',     caption: 'Authentic Chicago-style Deep Dish Pizza!', neighborhood: 'Varies',  line: 'Red, Blue, Brown, Orange, Green, Purple, Pink',   cuisine: 'American, Italian' },
 
 
-  { src: './photos/carmines.jpg', name: 'Carmines', caption: 'Fresh authentic Italian pasta!', neighborhood: 'River North', line: 'Red', cuisine: 'Italian' },
-  { src: './photos/luxbar.jpg', name: 'Luxbar', caption: 'Steak and Eggs brunch you will never forget!', neighborhood: 'Near North Side', line: 'Red', cuisine: 'American' },
-  { src: './photos/tavern_rush.jpg', name: 'Tavern on Rush', caption: 'Crispy Steak Frites!', neighborhood: 'Near North Side', line: 'Red', cuisine: 'American' },
-  
   { src: './photos/charlie_martin.jpg', name: 'Charlie Martin', caption: 'Cool Shrimp Cocktail!', neighborhood: 'River North', line: 'Red', cuisine: 'American' },
    
   
-  { src: './photos/roanoke.jpg', name: 'Roanoke',     caption: 'Consultants! Make sure your clients do not miss out Steak and Eggs!', neighborhood: 'Loop',  line: 'Red, Blue, Brown, Orange, Green, Purple, Pink',   cuisine: 'American' },
- 
+
  
   { src: './photos/porcellino.jpg', name: 'Il Porcellino',     caption: 'Delicious hand-made thick pasta with Italian sausage!', neighborhood: 'River North',  line: 'Brown, Purple',   cuisine: 'Italian' },
 
@@ -684,10 +691,9 @@ const GALLERY_SLIDES = [
 
 
   { src: './photos/chosun.jpg',         name: 'Cho Sun Ok',       caption: 'Most traditional Korean restaurant in Chicago. Reminding Seoul and Korean BBQ!', neighborhood: 'Lincoln Square', line: 'Brown', cuisine: 'Korean' },
-  
-
   { src: './photos/daebak.jpg',         name: 'Daebak Korean BBQ', caption: 'Best authentic Korean BBQ in Chicago. Worth every penny.', neighborhood: 'Wicker Park', line: 'Blue', cuisine: 'Korean' },
-
+  { src: './photos/cocoro.jpg', name: 'Cocoro',     caption: 'Authentic Japanese Restaurant in the City of Chicago!', neighborhood: 'River North',  line: 'Red, Purple, Brown',   cuisine: 'Japanese' },
+ 
 
 ];
 
